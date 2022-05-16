@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+
+
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20rem;
+
+}
+
+.texto:active{
+
+    filter: grayscale(1);
+    transform: rotate(180deg);
+}
+.texto2:active{
+    filter: grayscale(1);
+    transform: rotate(360deg);
+    transition-duration: 300ms;
+}
+
+.texto2{
+    margin-left: 26rem;
+}
+
+
